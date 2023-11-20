@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <title>Short It</title>
+</head>
+<body>
+    <div class="box">
+        <h2>URL Shortener</h2>
+            <div class="long">
+                <input type="text" id="longUrl" placeholder="Long URL" required><i class="fi fi-br-link-alt"></i>
+                <button id="shortener" onclick="shortenUrl()">Short</button>
+            </div>
+            <div class="short">
+                <input type="text" id="shortUrl" placeholder="Shortened Url">
+                <button id="copy">
+                    <i class="fi fi-rr-copy-alt"></i>
+                </button>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
